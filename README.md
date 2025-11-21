@@ -10,38 +10,38 @@ The core of the project is the notebook `Cats_v_Dogs_Augmentation.ipynb`, which 
 It is meant as a **practical introduction** to deep learning for computer vision.
 
 ## What the Notebook Does
-# 1. Loads image data from train/val/test
-# 2. Applies data augmentation:
-#      - random flip
-#      - rotation
-#      - zoom
-#      - shift/shear
-# 3. Builds a CNN model for binary classification
-# 4. Trains the model on augmented images
-# 5. Evaluates accuracy and loss on validation set
-# 6. Plots training curves (accuracy + loss)
-# 7. Tests predictions on unseen images
+ 1. Loads image data from train/val/test
+ 2. Applies data augmentation:
+      - random flip
+      - rotation
+      - zoom
+      - shift/shear
+ 3. Builds a CNN model for binary classification
+ 4. Trains the model on augmented images
+ 5. Evaluates accuracy and loss on validation set
+ 6. Plots training curves (accuracy + loss)
+ 7. Tests predictions on unseen images
 
 ## Project Structure
 Cats_v_Dogs_Augmentation.ipynb   # Main notebook: data, model, training, evaluation
 README.md                        # Project documentation
 
 ## Optional Improvements
-# Try transfer learning:
-#   - VGG16
-#   - MobileNetV2
-#   - ResNet50
-#
+ Try transfer learning:
+   - VGG16
+   - MobileNetV2
+   - ResNet50
+
 # Add regularization:
-#   - Dropout
-#   - L2 weight decay
-#
-# Add TensorBoard logging:
-#   tensorboard --logdir logs/
-#
+   - Dropout
+   - L2 weight decay
+
+ Add TensorBoard logging:
+   tensorboard --logdir logs/
+
 # Build a prediction demo:
-#   - Streamlit
-#   - Gradio
+   - Streamlit
+   - Gradio
 
 ## Dataset
 Downloaded from Kaggle: https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset 
